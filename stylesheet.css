@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center{
+    width: 350px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 4px;
+
+}
+
+.center .header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    
+}
+
+.center .inputElement{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+    
+}
+
+.inputElement .inputtext{
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgb(251, 244, 244);
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 3px;
+}
+
+.inputElement .inputtext:active{
+    border-color:rgb(165, 165, 165) ;
+}
+.inputtext:focus{
+    outline: gray;
+
+}
+
+.inputbutton{
+    background-color: rgb(72, 167, 255);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.inputbutton:active{
+    background-color: rgb(136, 198, 255) ;
+}
+
+
+.line{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.arrow{
+    background-color: rgb(225, 225, 225);
+    height: 1px;
+    width: 140px;
+
+}
+
+.content{
+    color:gray;
+    margin-top: -8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: small;
+}
+
+.social_icon{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(3, 66, 124);
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.social_icon:active{
+    color:rgb(52, 123, 189) ;
+}
+
+.forgetpassword{
+    margin: auto;
+    color:  rgb(3, 66, 124);
+    margin-bottom: 26px;
+    font-size: small;
+    cursor: pointer;
+}
+
+
+.forgetpassword:active{
+    color:rgb(28, 114, 196) ;
+}
+.footer{
+    margin-top: 10px;
+    border: 1px solid rgb(225,225, 225);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer span{
+    color: rgb(72, 167, 255);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer span:active{
+    color: rgb(146, 196, 242) ;
+}
+
+.paragraph .para{
+    margin-top: 18px;
+    font-size: small;
+}
+
+.linkbuttons .googleplayimg{
+    margin-top: 20px;
+    width: 128px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.linkbuttons .googleplayimg:active{
+    opacity: 80%;
+}
+
+.linkbuttons .microsoftimg{
+    margin-top: 20px;
+    width: 125px;
+    height: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.linkbuttons .microsoftimg:active{
+    opacity: 80%;
+}
